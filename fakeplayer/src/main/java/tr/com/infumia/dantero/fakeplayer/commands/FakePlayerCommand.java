@@ -23,7 +23,8 @@ public class FakePlayerCommand extends BaseCommand {
     public void defaultCommand(final CommandSender sender) {
         sender.sendMessage("/fakeplayer reload : Reload the config file.");
         sender.sendMessage("/fakeplayer spawn <name>: Spawns a NPC.");
-        sender.sendMessage("/fakeplayer remove : Spawns a NPC.");
+        sender.sendMessage("/fakeplayer remove : Removes a NPC.");
+        sender.sendMessage("/fakeplayer animate : Animates a NPC.");
     }
 
     @Subcommand("animate")
